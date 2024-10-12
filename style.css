@@ -11,6 +11,11 @@ html{
     scroll-behavior: smooth;
 }
 
+#myImg {
+
+    border: 1px solid black;
+}
+
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -366,19 +371,22 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 90%;
 }
 .skills-content .right .js::before{
     width: 80%;
 }
-.skills-content .right .php::before{
-    width: 50%;
+.skills-content .right .react::before{
+    width: 70%;
 }
-.skills-content .right .mysql::before{
+.skills-content .right .mongoDb::before{
     width: 70%;
 }
 
 /* teams section styling */
+.box {
+    height: 400px;
+}
 .teams .title::after{
     content: "who with me";
 }
